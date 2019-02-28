@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia | Game</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="Header" class="container-fluid animated zoomIn bounceOut">
+
+
+        </div>
+        <div id="Start-screen"></div>
+        <img class="img-fluid" src="assets/images/TriviaNightlogo.png" alt="test img" height="250" width="250">
+        <br>
+        <br>
+        <h1>Answer the questions before time runs out!</h1>
+        <h2>Click start to begin.</h2>
+        <br>
+        <div id="start-game" class="container-fluid animeted zoomInRight">
+            <button onclick="startTimer()">Start</button>
+        </div>
+
+        </div>
+    </header>
+
+    <div id="question-master" class="container-fluid animated zoomIn">
+        <div>
+            <p id="timer"></p>
+        </div>
+        <header>
+            <h1>General Knowledge</h1>
+        </header>
+        <div>
+            <p id="display"></p>
+            <p id="timer"></p>
+        </div>
+        <div id="quiz"></div>
+        <button id="submit">Submit</button>
+                <div id="results"></div>
+                <p>correct: <span id="correct"></span></p>
+                <p>Incorrect: <span id="incorrect"></span></p>
+            </div>
+
+
+            <script type="text/javascript" src="assets/JQuery/game.js"></script>
+
+</body>
+
+</html>
